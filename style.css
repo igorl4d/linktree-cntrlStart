@@ -32,3 +32,26 @@ body{
     height: 250px;
     width: 250px;
 }
+
+.container-links > a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding : 10px 50px;
+    transition: 0.7s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-links > a:hover{
+    background-color: white;
+    color: black;               
+}
+
+a > img{
+   width: 24px;
+}
+
+
+
